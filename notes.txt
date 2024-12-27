@@ -1,0 +1,26 @@
+TODOs:
+
+1. 
+2. 
+3. 
+4.
+5. 
+6.
+7. Glossary
+8. Conclusions Chapter 5
+9. Abstract
+10. References
+
+
+Area results: Fire best, then earth then flood,
+                Urban > Suburban > Rural σε accuracy, loss
+                More users ==> better
+
+Main results: Compare Utilities
+                GT >= RL >= Random σε accuracy, loss
+                More users ==> better
+
+
+Regret results: Compare Utilities Regret CI, Regret II and GT && Times
+                GT >= CI >= II σε accuracy, loss
+                More users ==> better   

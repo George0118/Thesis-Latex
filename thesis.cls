@@ -146,7 +146,7 @@
             \begin{center}
                 %\Large \textsc{{\bfseries \@translator}}\\[12pt]
                
-                Αθήνα, Νοέμβριος \the\year
+                Αθήνα, Φεβρουάριος 2025
             \end{center}
             %
             \cleardoublepage
@@ -201,7 +201,7 @@
             \begin{center}
                 %\Large \textsc{{\bfseries \@translator}}\\[12pt]
                 %\textsc{\@lab}\\
-                Αθήνα, Νοέμβριος \the\year
+                Αθήνα, Φεβρουάριος 2025
             \end{center}
             %
             \fi
@@ -270,7 +270,7 @@
 \newcommand{\urlname}{\en{URL}}
 \newcommand{\ftpname}{\en{FTP}}
 % More Names
-\translator{Διπλωματική Εργασία}
+\translator{Διπλωματικη Εργασια}
 \institution{Εθνικό Μετσόβιο Πολυτεχνείο}
 \department{Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών}
 \division{Τομέας Επικοινωνιών, Ηλεκτρονικής και Συστημάτων Πληροφορικής}

@@ -193,6 +193,7 @@
                 \vspace{1mm}
            \vfill
 
+                \hspace*{-2cm}
                 \begin{minipage}{\textwidth}
                     \@approval
                 \end{minipage}
@@ -304,14 +305,15 @@
 
 \approval{
     Εγκρίθηκε από την τριμελή εξεταστική επιτροπή την 11η Νοεμβρίου 2023.
-    \begin{tabbing}
-    aaaaaaaaaaaaaaaaaaaaaa\=aaaaaaaaaaaaaaaaaaaaaaaaaaa\=\kill
-    \textit{(Υπογραφή)}\>   \textit{(Υπογραφή)}\>  \textit{(Υπογραφή)}\\\\\\
-    ........................\>  ........................\>  ........................\\
-    \@supervisor\>         \@epitropiF\>    \@epitropiS\\
-    Καθηγητής Ε.Μ.Π.\>     Επίκουρη Καθηγήτρια U.N.M.\>      Αναπληρώτρια Καθηγήτρια Ε.Μ.Π.\\\\\\\\
-    \end{tabbing}
-
+    \begin{center}
+        \begin{tabular}{p{6cm}p{6cm}p{6cm}}  % Adjust column widths as needed
+            \textit{(Υπογραφή)} & \textit{(Υπογραφή)} & \textit{(Υπογραφή)} \\
+            \\[10pt] % Adds vertical space between rows
+            ........................ & ........................ & ........................ \\
+            \@supervisor & \@epitropiS & \@epitropiF \\
+            Καθηγητής Ε.Μ.Π. & Αναπληρώτρια Καθηγήτρια Ε.Μ.Π. & Αναπληρώτρια Καθηγήτρια A.S.U \\
+        \end{tabular}
+    \end{center}
 }
 
 \middletitleback{

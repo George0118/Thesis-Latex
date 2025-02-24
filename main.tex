@@ -42,7 +42,7 @@
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
 
-\usepackage[backend=biber,natbib=true,style=alphabetic,autolang=other,maxbibnames=99]{biblatex}
+\usepackage[backend=biber,natbib=true,style=ieee,autolang=other,maxbibnames=99]{biblatex}
 
 \usepackage[Bjornstrup]{fncychap}
 
@@ -100,7 +100,6 @@
 \newcommand\blankpage{%
     \null
     \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
     \newpage}
 % latin text (and greek text)
 %\newcommand{\prg}[1]{\textlatin{\texttt{#1}}}
@@ -156,9 +155,9 @@
 \begin{document}
 
 \selectlanguage{greek}
+\pagenumbering{arabic}
 \maketitle
 \frontmatter
-\pagenumbering{roman}
 \mainmatter
 \include{abstract}
 \tableofcontents
